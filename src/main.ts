@@ -1,3 +1,8 @@
+import * as _ from 'lodash'
+import { roomAssigner } from './room/assigner'
+
 export const loop = () => {
-  console.log('gameloop')
+  _.values(Game.rooms).forEach((room) => {
+    roomAssigner.assign(room)
+  })
 }

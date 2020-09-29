@@ -3,16 +3,18 @@
   "version": "1.0.0",
   "license": "MIT",
   "devDependencies": {
-    "@rollup/plugin-typescript": "^6.0.0",
+    "@types/lodash": "^4.14.161",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
     "install": "^0.13.0",
     "jest": "^26.4.2",
-    "npm": "^6.14.8",
-    "rollup": "^2.28.2",
-    "tslib": "^2.0.1",
     "typescript": "^4.0.3"
   },
   "scripts": {
-    "build": "rollup -c",
+    "build": "gulp",
     "test": "jest"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
   }
 }

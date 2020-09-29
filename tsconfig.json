@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "baseUrl": "src",
+    "sourceMap": true,
+    "strict": true,
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
